@@ -33,7 +33,7 @@ function App() {
 
   // 할 일 생성 함수에 useCallback 적용
   const onCreate = useCallback((content) => {
-    console.log("onCreate 호출");
+    console.log("onCreate 호출a");
     dispatch({
       type: "CREATE",
       newItem: {
@@ -75,3 +75,4 @@ function App() {
 }
 
 export default App;
+
